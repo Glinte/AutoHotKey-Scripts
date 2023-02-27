@@ -6,6 +6,8 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 #Persistent
 #SingleInstance Ignore
 
+; Source: https://superuser.com/questions/1688840/auto-close-program-after-x-seconds-inactivity-in-that-program
+
 SetTimer, close_inactive_Opera_window, 1000 ; 1 second timer
 return
 
